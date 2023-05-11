@@ -48,10 +48,12 @@
             <q-icon name="search" />
           </template>
         </q-input>
-        <!-- <q-btn class="q-ml-md"
-          color="warning"
+        <q-btn class="q-ml-md"
+          color="positive"
           label="Sincronizar"
-          @click="sincronizarContatos" /> -->
+          @click="sincronizarContatos">
+          <q-tooltip class="positive">Sincronizar com WhatsApp</q-tooltip>
+          </q-btn>
         <q-btn class="q-ml-md"
           color="primary"
           label="Adicionar"

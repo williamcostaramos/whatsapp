@@ -113,9 +113,9 @@
           Usuário: {{ ticket.username }}
         </q-item-label>
 
-        <!-- <span class="absolute-bottom-right" v-if="ticket.unreadMessages">
+        <span class="absolute-bottom-right" v-if="ticket.unreadMessages">
           <q-badge style="font-size: .8em; border-radius: 10px;" class="q-py-xs" dense text-color="white" color="green" :label="ticket.unreadMessages" />
-        </span> -->
+        </span>
       </q-item-section>
     </q-item>
     <q-separator color="grey-2"

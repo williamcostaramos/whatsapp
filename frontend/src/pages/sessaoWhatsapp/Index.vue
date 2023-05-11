@@ -5,7 +5,7 @@
         bordered
         class="full-width">
         <q-card-section class="text-h6 text-bold">
-          Canais de Comunicação
+          Plataformas de Comunicação
           <q-separator />
         </q-card-section>
       </q-card>

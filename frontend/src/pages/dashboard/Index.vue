@@ -3,7 +3,7 @@
     <q-card class="q-my-md">
       <q-card-section class="row justify-between items-center">
         <div class="col-xs-12 col-md-3 text-h4 text-bold">
-          DashBoard
+          Dashboard
         </div>
         <div class="col-xs-12 col-md-9 justify-end flex q-gutter-sm">
           <q-datetime-picker

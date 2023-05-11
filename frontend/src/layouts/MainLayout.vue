@@ -20,9 +20,9 @@
           dense
           class="q-ml-sm"
           v-if="$q.screen.gt.xs">
-          <q-img src="/izing-logo_5_transparent.png"
+          <q-img src="/logo.png"
             spinner-color="primary"
-            style="height: 50px; width: 120px" />
+            style="height: 48px; width: 48px" />
           <!-- <q-toolbar-title
             shrink
             class="text-bold text-grey-7"
@@ -34,7 +34,7 @@
         <q-space />
 
         <div class="q-gutter-sm row items-center no-wrap">
-          <q-btn round
+          <!-- <q-btn round
             dense
             flat
             color="grey-8"
@@ -45,7 +45,7 @@
               2
             </q-badge>
             <q-tooltip>Notificações (Em breve)</q-tooltip>
-          </q-btn>
+          </q-btn> -->
           <q-avatar :color="usuario.status === 'offline' ? 'negative' : 'positive'"
             text-color="white"
             size="25px"
@@ -200,8 +200,8 @@ const objMenu = [
   },
 
   {
-    title: 'Atendimentos',
-    caption: 'Lista de atendimentos',
+    title: 'Meus Atendimentos',
+    caption: 'Meus atendimentos',
     icon: 'mdi-forum-outline',
     routeName: 'atendimento'
   },
@@ -215,9 +215,9 @@ const objMenu = [
 
 const objMenuAdmin = [
   {
-    title: 'Canais',
+    title: 'Plataformas',
     caption: 'Canais de Comunicação',
-    icon: 'mdi-cellphone-wireless',
+    icon: 'mdi-video-input-antenna',
     routeName: 'sessoes'
   },
   {
@@ -279,15 +279,19 @@ const objMenuAdmin = [
     title: 'Campanha',
     caption: 'Campanhas de envio',
     icon: 'mdi-message-bookmark-outline',
-    routeName: 'campanhas',
-    isBeta: true
+    routeName: 'campanhas'
   },
   {
     title: 'API',
     caption: 'Integração sistemas externos',
     icon: 'mdi-call-split',
-    routeName: 'api-service',
-    isBeta: true
+    routeName: 'api-service'
+  },
+  {
+    title: 'Empresa',
+    caption: 'Integração sistemas externos',
+    icon: 'mdi-domain',
+    routeName: 'api-service'
   }
 ]
 
